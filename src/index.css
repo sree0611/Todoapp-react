@@ -36,6 +36,7 @@
 
 .todo-box .content{
   display: flex;
+  gap: 10px;
 }
 
 .todo-box .content p{
@@ -49,6 +50,7 @@
 
 .delete-all{
   width: 400px;
+  margin-top: 10px;
 }
 
 .actions-box{
@@ -58,4 +60,11 @@
 .back-btn{
   margin-top: 5px;
   width: 100%;
+}
+
+.check{
+  margin-left: 20px;
+}
+.space{
+  margin-left: 5px;
 }
