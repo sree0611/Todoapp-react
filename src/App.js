@@ -42,14 +42,14 @@ function App() {
         handleEditClick={handleEditClick}
         editFormVisibility={editFormVisibility}
       />
-      {todos.length > 1 && (
+      {todos.length > 1 ? (
         <button
           className="btn btn-danger btn-md delete-all"
           onClick={() => dispatch(deleteAll())}
         >
           DELETE ALL
         </button>
-      )}
+      ) : null}
     </div>
   );
 }
